@@ -1,8 +1,8 @@
 package AdapterPattern;
 
-public class SocketAdapter implements Electronic110V{
+public class From220Vto110VAdapter implements Electronic110V{
     private Electronic220V electronic220V;
-    public SocketAdapter(Electronic220V electronic220V){
+    public From220Vto110VAdapter(Electronic220V electronic220V){
         this.electronic220V = electronic220V;
     }
     @Override
