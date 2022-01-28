@@ -1,6 +1,6 @@
 package SingletonPattern;
 
-public class Main {
+public class SingletonMain {
     public static void main(String[] args) {
 
         Aclass aClass = new Aclass();
