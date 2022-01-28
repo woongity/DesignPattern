@@ -4,7 +4,6 @@ public class DecoratorMain {
     public static void main(String[] args) {
         Icar audi = new Audi(1000);
         audi.showPrice();
-
         //a3
         Icar audi3 = new A3(audi,"A3");
         audi3.showPrice();
